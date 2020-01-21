@@ -107,4 +107,127 @@ h2{
     float: left;
     margin: 1rem 2rem 0 0;;
 }
+
+.BOM .auther p{
+    padding-top: 1rem;
+}
 /* Månadens bok end*/
+
+/* Boktips start*/
+.books{
+    background-color: #2f3640;
+    color: #ecf0f1;
+}
+
+.book-tips {
+    max-width: 1000px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.header h2{
+    text-decoration: underline;
+    margin-left: 6rem;
+    margin-top: 3rem;
+    display: inline-block;
+
+}
+
+.book{
+    max-width: 200px;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.book h3{
+    margin-top: 0.4rem;
+}
+
+.book p{
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.book img{
+    max-width: 200px;
+}
+/* Boktips end*/
+
+
+/* Footer start*/
+footer{
+    background-color: #2f3640;
+}
+.footer-contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.footer-container{
+    color: #ecf0f1;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-container h3{
+    margin-top: 4rem;
+    margin-bottom: 1.6rem;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.footer-container a{
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 1.1rem;
+    
+}
+.footer-container a:hover{
+    text-decoration: underline;
+    
+}
+
+.footer-container ul{
+    list-style-type: none;
+    margin-bottom: 3rem;
+    margin-right: 5rem;
+}
+
+.creator p{
+    text-align: center;
+    padding-bottom:2rem; 
+}
+/* Footer end*/
+
+@media screen and (max-width: 470px) {
+    .contact-info{
+        display: flex;
+        text-align: center;
+        max-width: 200px;
+    }
+    
+    .adress, .phone{
+        margin-bottom: 2rem;
+    }
+
+    .footer-contact{
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .footer-container ul{
+        list-style-type: none;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .footer-container h3{
+        margin-top: 3rem;
+    }
+}
+  
